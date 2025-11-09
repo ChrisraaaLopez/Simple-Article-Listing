@@ -6,10 +6,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
+    justify-content: center;
+    padding-right: 45px;
 }
 
 h1 {
     text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
 }
 
 .separador {
@@ -19,7 +26,6 @@ h1 {
 
 .articulo {
     display: flex;
-    background-color: rgb(116, 117, 117);
     width: 90%;
     margin: 20px;
     padding: 20px;
@@ -37,4 +43,13 @@ h1 {
     height: 200px;
     object-fit: cover;
     border-radius: 20px;
+}
+
+.fecha_publicacion {
+    color: rgb(173, 173, 173);
+}
+
+.contenido {
+    margin-top: auto;
+    margin-bottom: auto;
 }
